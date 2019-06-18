@@ -1,0 +1,44 @@
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana","strawberry", "Orange", "Apple", "Mango"];
+var first = fruits[3];
+document.getElementById("demo").innerHTML = first;
+</script>
+</body>
+</html>
+
+
+   <html>
+   <body>
+     <p id="demo"></p>
+
+     <script>
+      var fruits = ["Banana", "Orange","strawberry", "Apple", "Mango"];
+      document.getElementById("demo").innerHTML = fruits.length;
+      </script>
+   </body>
+   </html>
+
+c)
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var fruits = ["Banana", "Orange","Apple", "pineapple", "Mango"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+ fruits.sort();
+ fruits.reverse();
+ document.getElementById("demo").innerHTML = fruits;
+}
+</script>
+</body>
+</html>
